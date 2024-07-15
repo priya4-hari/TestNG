@@ -1,6 +1,6 @@
 # TestNG
 TestNG is an one of the testing framework.<br>
-TestNG provides support for testing needs.
+TestNG provides support for testing needs.<br>
 There are many features in TestNG:<br>
   <ul><li> Priority</li>
   <li>DependsOnMethods</li>
