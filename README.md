@@ -3,7 +3,7 @@ TestNG is an one of the testing framework.<br>
 TestNG provides support for testing needs.
 There are many features in TestNG:<br>
 <li>
-  <ul> Priority</ul>
+  <ul><li> Priority</li></ul>
   Priority
   DependsOnMethods
   Grouping
