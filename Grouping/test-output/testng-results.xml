@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-27T20:55:57 IST" name="Default suite" finished-at="2024-07-27T20:57:13 IST" duration-ms="75806">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@33d512c1]" name="sample" class="TESTCASES.Case1"/>
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@33d512c1]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- SmokeTest -->
+      <group name="SanityTest">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@33d512c1]" name="sample" class="TESTCASES.Case1"/>
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@33d512c1]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- SanityTest -->
+      <group name="Sanity">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@33d512c1]" name="sample" class="TESTCASES.Case1"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@33d512c1]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-07-27T20:55:57 IST" name="Default test" finished-at="2024-07-27T20:57:13 IST" duration-ms="75806">
+      <class name="TESTCASES.Case1">
+        <test-method signature="sample()[pri:0, instance:TESTCASES.Case1@33d512c1]" started-at="2024-07-27T20:55:57 IST" name="sample" finished-at="2024-07-27T20:56:38 IST" duration-ms="40439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="testing1()[pri:0, instance:TESTCASES.Case1@33d512c1]" started-at="2024-07-27T20:56:38 IST" name="testing1" finished-at="2024-07-27T20:57:13 IST" duration-ms="35086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing1 -->
+      </class> <!-- TESTCASES.Case1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

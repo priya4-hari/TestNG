@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><th colspan="8">SanityTestSuite</th></tr>
+<tr><td><a href="#t0">SanityTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,589</td><td>Sanity</td><td></td></tr>
+<tr><th colspan="8">RegressionSuite</th></tr>
+<tr class="stripe"><td><a href="#t1">RegressionTest</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">75,826</td><td>Regression</td><td></td></tr>
+<tr><th colspan="8">ExcludingTestCaseSuite</th></tr>
+<tr><td><a href="#t2">ExcludingTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">30,308</td><td>Sanity, Smoke</td><td>Regression</td></tr>
+<tr><th colspan="8">SmokeSuite</th></tr>
+<tr class="stripe"><td><a href="#t3">SmokeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">14,927</td><td>Smoke</td><td></td></tr>
+<tr><th colspan="8">AllGroupsSuite</th></tr>
+<tr><td><a href="#t4">AllGroupsTest</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">259,126</td><td>Sanity, Regression, Smoke</td><td></td></tr>
+<tr><th>Total</th><th class="num">16</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">391,776</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody><tr><th colspan="4">SanityTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SanityTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TESTCASES.Case1</td><td><a href="#m0">sample</a></td><td rowspan="1">1722094389631</td><td rowspan="1">11585</td></tr></tbody>
+<tbody><tr><th colspan="4">RegressionSuite</th></tr></tbody><tbody id="t1"><tr><th colspan="4">RegressionTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TESTCASES.Case2</td><td><a href="#m1">testing2</a></td><td rowspan="1">1722094416192</td><td rowspan="1">16493</td></tr><tr class="passedeven"><td><a href="#m2">testing3</a></td><td rowspan="1">1722094432687</td><td rowspan="1">16391</td></tr><tr class="passedodd"><td rowspan="3">TESTCASES.Case3</td><td><a href="#m3">testing4</a></td><td rowspan="1">1722094449090</td><td rowspan="1">14142</td></tr><tr class="passedodd"><td><a href="#m4">testing5</a></td><td rowspan="1">1722094463237</td><td rowspan="1">14677</td></tr><tr class="passedodd"><td><a href="#m5">testing6</a></td><td rowspan="1">1722094477917</td><td rowspan="1">14094</td></tr></tbody>
+<tbody><tr><th colspan="4">ExcludingTestCaseSuite</th></tr></tbody><tbody id="t2"><tr><th colspan="4">ExcludingTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TESTCASES.Case1</td><td><a href="#m6">sample</a></td><td rowspan="1">1722094492028</td><td rowspan="1">12617</td></tr><tr class="passedeven"><td><a href="#m7">testing1</a></td><td rowspan="1">1722094504647</td><td rowspan="1">17685</td></tr></tbody>
+<tbody><tr><th colspan="4">SmokeSuite</th></tr></tbody><tbody id="t3"><tr><th colspan="4">SmokeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TESTCASES.Case1</td><td><a href="#m8">testing1</a></td><td rowspan="1">1722094401231</td><td rowspan="1">14923</td></tr></tbody>
+<tbody><tr><th colspan="4">AllGroupsSuite</th></tr></tbody><tbody id="t4"><tr><th colspan="4">AllGroupsTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TESTCASES.Case1</td><td><a href="#m9">sample</a></td><td rowspan="1">1722094129979</td><td rowspan="1">47858</td></tr><tr class="passedeven"><td><a href="#m10">testing1</a></td><td rowspan="1">1722094177854</td><td rowspan="1">69257</td></tr><tr class="passedodd"><td rowspan="2">TESTCASES.Case2</td><td><a href="#m11">testing2</a></td><td rowspan="1">1722094247122</td><td rowspan="1">42868</td></tr><tr class="passedodd"><td><a href="#m12">testing3</a></td><td rowspan="1">1722094289999</td><td rowspan="1">38449</td></tr><tr class="passedeven"><td rowspan="3">TESTCASES.Case3</td><td><a href="#m13">testing4</a></td><td rowspan="1">1722094328453</td><td rowspan="1">35786</td></tr><tr class="passedeven"><td><a href="#m14">testing5</a></td><td rowspan="1">1722094364243</td><td rowspan="1">13548</td></tr><tr class="passedeven"><td><a href="#m15">testing6</a></td><td rowspan="1">1722094377833</td><td rowspan="1">11077</td></tr></tbody>
+</table>
+<h2>SanityTest</h2><h3 id="m0">TESTCASES.Case1#sample</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>RegressionTest</h2><h3 id="m1">TESTCASES.Case2#testing2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TESTCASES.Case2#testing3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TESTCASES.Case3#testing4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TESTCASES.Case3#testing5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TESTCASES.Case3#testing6</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ExcludingTest</h2><h3 id="m6">TESTCASES.Case1#sample</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TESTCASES.Case1#testing1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SmokeTest</h2><h3 id="m8">TESTCASES.Case1#testing1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>AllGroupsTest</h2><h3 id="m9">TESTCASES.Case1#sample</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TESTCASES.Case1#testing1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TESTCASES.Case2#testing2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TESTCASES.Case2#testing3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TESTCASES.Case3#testing4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TESTCASES.Case3#testing5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TESTCASES.Case3#testing6</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

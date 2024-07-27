@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-27T21:05:22 IST" name="Suite" finished-at="2024-07-27T21:05:22 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2024-07-27T21:03:09 IST" name="SanityTestSuite" finished-at="2024-07-27T21:03:21 IST" duration-ms="11589">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@a1153bc]" name="sample" class="TESTCASES.Case1"/>
+      </group> <!-- SmokeTest -->
+      <group name="SanityTest">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@a1153bc]" name="sample" class="TESTCASES.Case1"/>
+      </group> <!-- SanityTest -->
+      <group name="Sanity">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@a1153bc]" name="sample" class="TESTCASES.Case1"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-07-27T21:03:09 IST" name="SanityTest" finished-at="2024-07-27T21:03:21 IST" duration-ms="11589">
+      <class name="TESTCASES.Case1">
+        <test-method signature="sample()[pri:0, instance:TESTCASES.Case1@a1153bc]" started-at="2024-07-27T21:03:09 IST" name="sample" finished-at="2024-07-27T21:03:21 IST" duration-ms="11585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- TESTCASES.Case1 -->
+    </test> <!-- SanityTest -->
+  </suite> <!-- SanityTestSuite -->
+  <suite started-at="2024-07-27T21:03:36 IST" name="RegressionSuite" finished-at="2024-07-27T21:04:52 IST" duration-ms="75826">
+    <groups>
+      <group name="Regression">
+        <method signature="Case2.testing2()[pri:0, instance:TESTCASES.Case2@14cd1699]" name="testing2" class="TESTCASES.Case2"/>
+        <method signature="Case2.testing3()[pri:0, instance:TESTCASES.Case2@14cd1699]" name="testing3" class="TESTCASES.Case2"/>
+        <method signature="Case3.testing4()[pri:0, instance:TESTCASES.Case3@77888435]" name="testing4" class="TESTCASES.Case3"/>
+        <method signature="Case3.testing5()[pri:0, instance:TESTCASES.Case3@77888435]" name="testing5" class="TESTCASES.Case3"/>
+        <method signature="Case3.testing6()[pri:0, instance:TESTCASES.Case3@77888435]" name="testing6" class="TESTCASES.Case3"/>
+      </group> <!-- Regression -->
+      <group name="InvalidInput">
+        <method signature="Case2.testing2()[pri:0, instance:TESTCASES.Case2@14cd1699]" name="testing2" class="TESTCASES.Case2"/>
+        <method signature="Case2.testing3()[pri:0, instance:TESTCASES.Case2@14cd1699]" name="testing3" class="TESTCASES.Case2"/>
+      </group> <!-- InvalidInput -->
+      <group name="BlankInputs">
+        <method signature="Case3.testing4()[pri:0, instance:TESTCASES.Case3@77888435]" name="testing4" class="TESTCASES.Case3"/>
+        <method signature="Case3.testing5()[pri:0, instance:TESTCASES.Case3@77888435]" name="testing5" class="TESTCASES.Case3"/>
+        <method signature="Case3.testing6()[pri:0, instance:TESTCASES.Case3@77888435]" name="testing6" class="TESTCASES.Case3"/>
+      </group> <!-- BlankInputs -->
+    </groups>
+    <test started-at="2024-07-27T21:03:36 IST" name="RegressionTest" finished-at="2024-07-27T21:04:52 IST" duration-ms="75826">
+      <class name="TESTCASES.Case3">
+        <test-method signature="testing4()[pri:0, instance:TESTCASES.Case3@77888435]" started-at="2024-07-27T21:04:09 IST" name="testing4" finished-at="2024-07-27T21:04:23 IST" duration-ms="14142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing4 -->
+        <test-method signature="testing5()[pri:0, instance:TESTCASES.Case3@77888435]" started-at="2024-07-27T21:04:23 IST" name="testing5" finished-at="2024-07-27T21:04:37 IST" duration-ms="14677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing5 -->
+        <test-method signature="testing6()[pri:0, instance:TESTCASES.Case3@77888435]" started-at="2024-07-27T21:04:37 IST" name="testing6" finished-at="2024-07-27T21:04:52 IST" duration-ms="14094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing6 -->
+      </class> <!-- TESTCASES.Case3 -->
+      <class name="TESTCASES.Case2">
+        <test-method signature="testing2()[pri:0, instance:TESTCASES.Case2@14cd1699]" started-at="2024-07-27T21:03:36 IST" name="testing2" finished-at="2024-07-27T21:03:52 IST" duration-ms="16493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing2 -->
+        <test-method signature="testing3()[pri:0, instance:TESTCASES.Case2@14cd1699]" started-at="2024-07-27T21:03:52 IST" name="testing3" finished-at="2024-07-27T21:04:09 IST" duration-ms="16391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing3 -->
+      </class> <!-- TESTCASES.Case2 -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
+  <suite started-at="2024-07-27T21:04:52 IST" name="ExcludingTestCaseSuite" finished-at="2024-07-27T21:05:22 IST" duration-ms="30308">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@7b98f307]" name="sample" class="TESTCASES.Case1"/>
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@7b98f307]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- SmokeTest -->
+      <group name="SanityTest">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@7b98f307]" name="sample" class="TESTCASES.Case1"/>
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@7b98f307]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- SanityTest -->
+      <group name="Sanity">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@7b98f307]" name="sample" class="TESTCASES.Case1"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@7b98f307]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-07-27T21:04:52 IST" name="ExcludingTest" finished-at="2024-07-27T21:05:22 IST" duration-ms="30308">
+      <class name="TESTCASES.Case1">
+        <test-method signature="sample()[pri:0, instance:TESTCASES.Case1@7b98f307]" started-at="2024-07-27T21:04:52 IST" name="sample" finished-at="2024-07-27T21:05:04 IST" duration-ms="12617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="testing1()[pri:0, instance:TESTCASES.Case1@7b98f307]" started-at="2024-07-27T21:05:04 IST" name="testing1" finished-at="2024-07-27T21:05:22 IST" duration-ms="17685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing1 -->
+      </class> <!-- TESTCASES.Case1 -->
+    </test> <!-- ExcludingTest -->
+  </suite> <!-- ExcludingTestCaseSuite -->
+  <suite started-at="2024-07-27T21:03:21 IST" name="SmokeSuite" finished-at="2024-07-27T21:03:36 IST" duration-ms="14927">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@55182842]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- SmokeTest -->
+      <group name="SanityTest">
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@55182842]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- SanityTest -->
+      <group name="Smoke">
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@55182842]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-07-27T21:03:21 IST" name="SmokeTest" finished-at="2024-07-27T21:03:36 IST" duration-ms="14927">
+      <class name="TESTCASES.Case1">
+        <test-method signature="testing1()[pri:0, instance:TESTCASES.Case1@55182842]" started-at="2024-07-27T21:03:21 IST" name="testing1" finished-at="2024-07-27T21:03:36 IST" duration-ms="14923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing1 -->
+      </class> <!-- TESTCASES.Case1 -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- SmokeSuite -->
+  <suite started-at="2024-07-27T20:58:49 IST" name="AllGroupsSuite" finished-at="2024-07-27T21:03:08 IST" duration-ms="259126">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@6356695f]" name="sample" class="TESTCASES.Case1"/>
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@6356695f]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- SmokeTest -->
+      <group name="SanityTest">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@6356695f]" name="sample" class="TESTCASES.Case1"/>
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@6356695f]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- SanityTest -->
+      <group name="Sanity">
+        <method signature="Case1.sample()[pri:0, instance:TESTCASES.Case1@6356695f]" name="sample" class="TESTCASES.Case1"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Case2.testing2()[pri:0, instance:TESTCASES.Case2@3e58a80e]" name="testing2" class="TESTCASES.Case2"/>
+        <method signature="Case2.testing3()[pri:0, instance:TESTCASES.Case2@3e58a80e]" name="testing3" class="TESTCASES.Case2"/>
+        <method signature="Case3.testing4()[pri:0, instance:TESTCASES.Case3@4fb61f4a]" name="testing4" class="TESTCASES.Case3"/>
+        <method signature="Case3.testing5()[pri:0, instance:TESTCASES.Case3@4fb61f4a]" name="testing5" class="TESTCASES.Case3"/>
+        <method signature="Case3.testing6()[pri:0, instance:TESTCASES.Case3@4fb61f4a]" name="testing6" class="TESTCASES.Case3"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Case1.testing1()[pri:0, instance:TESTCASES.Case1@6356695f]" name="testing1" class="TESTCASES.Case1"/>
+      </group> <!-- Smoke -->
+      <group name="InvalidInput">
+        <method signature="Case2.testing2()[pri:0, instance:TESTCASES.Case2@3e58a80e]" name="testing2" class="TESTCASES.Case2"/>
+        <method signature="Case2.testing3()[pri:0, instance:TESTCASES.Case2@3e58a80e]" name="testing3" class="TESTCASES.Case2"/>
+      </group> <!-- InvalidInput -->
+      <group name="BlankInputs">
+        <method signature="Case3.testing4()[pri:0, instance:TESTCASES.Case3@4fb61f4a]" name="testing4" class="TESTCASES.Case3"/>
+        <method signature="Case3.testing5()[pri:0, instance:TESTCASES.Case3@4fb61f4a]" name="testing5" class="TESTCASES.Case3"/>
+        <method signature="Case3.testing6()[pri:0, instance:TESTCASES.Case3@4fb61f4a]" name="testing6" class="TESTCASES.Case3"/>
+      </group> <!-- BlankInputs -->
+    </groups>
+    <test started-at="2024-07-27T20:58:49 IST" name="AllGroupsTest" finished-at="2024-07-27T21:03:08 IST" duration-ms="259126">
+      <class name="TESTCASES.Case3">
+        <test-method signature="testing4()[pri:0, instance:TESTCASES.Case3@4fb61f4a]" started-at="2024-07-27T21:02:08 IST" name="testing4" finished-at="2024-07-27T21:02:44 IST" duration-ms="35786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing4 -->
+        <test-method signature="testing5()[pri:0, instance:TESTCASES.Case3@4fb61f4a]" started-at="2024-07-27T21:02:44 IST" name="testing5" finished-at="2024-07-27T21:02:57 IST" duration-ms="13548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing5 -->
+        <test-method signature="testing6()[pri:0, instance:TESTCASES.Case3@4fb61f4a]" started-at="2024-07-27T21:02:57 IST" name="testing6" finished-at="2024-07-27T21:03:08 IST" duration-ms="11077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing6 -->
+      </class> <!-- TESTCASES.Case3 -->
+      <class name="TESTCASES.Case2">
+        <test-method signature="testing2()[pri:0, instance:TESTCASES.Case2@3e58a80e]" started-at="2024-07-27T21:00:47 IST" name="testing2" finished-at="2024-07-27T21:01:29 IST" duration-ms="42868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing2 -->
+        <test-method signature="testing3()[pri:0, instance:TESTCASES.Case2@3e58a80e]" started-at="2024-07-27T21:01:29 IST" name="testing3" finished-at="2024-07-27T21:02:08 IST" duration-ms="38449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing3 -->
+      </class> <!-- TESTCASES.Case2 -->
+      <class name="TESTCASES.Case1">
+        <test-method signature="sample()[pri:0, instance:TESTCASES.Case1@6356695f]" started-at="2024-07-27T20:58:49 IST" name="sample" finished-at="2024-07-27T20:59:37 IST" duration-ms="47858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="testing1()[pri:0, instance:TESTCASES.Case1@6356695f]" started-at="2024-07-27T20:59:37 IST" name="testing1" finished-at="2024-07-27T21:00:47 IST" duration-ms="69257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing1 -->
+      </class> <!-- TESTCASES.Case1 -->
+    </test> <!-- AllGroupsTest -->
+  </suite> <!-- AllGroupsSuite -->
+</testng-results>
