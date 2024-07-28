@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MethodsParallelSuite">
+  <test thread-count="5" name="MethodsParallelTest" parallel="methods">
+    <classes>
+      <class name="ParallelExe.Case1">
+		<methods>
+			<include name="testing1"/>
+			<include name="testing2"/>
+		</methods>
+     </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
