@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ForLoopSuite">
+  <test  name="ForLoopTest">
+    <classes>
+      <class name="ForLoop.TestCase1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ForLoopSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="ForLoopTest(failed)" verbose="0">
+    <classes>
+      <class name="ForLoop.TestCase1">
+        <methods>
+          <include name="Case"/>
+        </methods>
+      </class> <!-- ForLoop.TestCase1 -->
+    </classes>
+  </test> <!-- ForLoopTest(failed) -->
+</suite> <!-- Failed suite [ForLoopSuite] -->
