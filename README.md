@@ -17,5 +17,5 @@
     Priority
       Priority is used to maintain the testing order.
     DependsOnMethods
-      If one method
+      If one method depends on another method.
 
